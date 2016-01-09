@@ -29,6 +29,10 @@ not exist, then let it fail silently. Do not have it reply with something like
 then it's okay to reply with "invalid args". The reason for this is if the bot
 is in more than 1 server and there's another bot and they have conflicting
 prefixes it becomes a problem as it's annoying.
+8. **Have a leave command**. If a bot joins your server unexpectedly, always
+allow the user to force it to leave at thier request. This way, bots aren't 
+clogging up servers, and the innocent people have to deal with it until an
+admin gets on.
 
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
